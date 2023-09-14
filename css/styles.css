@@ -40,6 +40,20 @@ font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.02em;
 }
+.header-menu-link:hover {
+color: var(--OCEAN, #404BBF);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; 
+letter-spacing: 0.02em;
+}
+.header-menu-link:focus {
+color: var(--OCEAN, #404BBF);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; 
+letter-spacing: 0.02em;
+}
 .header-address {
   font-style: normal
 }
@@ -64,7 +78,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 .order {
-  background: var(--NAVY-BLUE, #2E2F42);
+  background-color: var(--NAVY-BLUE, #2E2F42);
 }
 .order-title {
   color: var(--WHITE, #FFF);
@@ -80,9 +94,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
-border-radius: 4px;
 background: var(--IRIS, #4D5AE5);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 cursor: pointer;
 }
 .order-btn:hover, .order-btn:focus {
@@ -91,9 +103,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
-border-radius: 4px;
 background: var(--OCEAN, #404BBF);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .desc-list-subtitle {
   color: var(--NAVY-BLUE, #2E2F42);
