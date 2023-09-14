@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--NAVY-BLUE, #2E2F42);
+  color: #434455;
+  background-color: #FFFFFF;
 }
 a {
   text-decoration: none;
@@ -8,33 +9,28 @@ a {
 ul {list-style: none;}
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
   margin: -1px;
   border: 0;
-  padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
 .header-logo {
-  color: var(--NAVY-BLUE, #2E2F42);
-font-family: Raleway;
+ color: var(--NAVY-BLUE, #4d5ae5);
+font-family: Raleway, sans-serif;
 font-size: 18px;
 font-weight: 700;
-line-height: 1.16
+line-height: 1.17; 
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .header-logo-color {
-  color: var(--IRIS, #4D5AE5);
-font-family: Raleway;
+  color: var(--IRIS, #2e2f42);
+font-family: Raleway, sans-serif;
 font-size: 18px;
 font-weight: 700;
-line-height: 1.16; 
+line-height: 1.17; 
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
@@ -52,16 +48,17 @@ font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.02em;
 }
-
+.header-address {
+  font-style: normal
+}
 .header-list-link {
   color: var(--SLATE, #434455);
 font-size: 16px;
-font-style: normal;
 line-height: 1.5; 
 letter-spacing: 0.02em;
 }
 .header-list-link:hover, .header-list-link:focus {
-  color: var(--OCEAN, #404BBF);
+  color: var(--OCEAN, #404bbf );
 font-size: 16px;
 font-weight: 400;
 line-height: 1.5; 
@@ -90,7 +87,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 cursor: pointer;
 }
 .order-btn:hover, .order-btn:focus {
-   color: var(--WHITE, #FFF);
+  color: var(--WHITE, #FFF);
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
@@ -111,6 +108,12 @@ letter-spacing: 0.02em;
 font-size: 16px;
 line-height: 1.5; 
 letter-spacing: 0.02em;
+}
+.team {
+  background-color: #F4F4FD
+}
+.team-list {
+  background-color: #FFFFFF
 }
 .team-title {
   color: var(--NAVY-BLUE, #2E2F42);
@@ -162,20 +165,20 @@ letter-spacing: 0.02em;
   background: var(--NAVY-BLUE, #2E2F42);
 }
 .footer-logo {
-  color: var(--CLOUD, #F4F4FD);
-font-family: Raleway;
+  color: var(--CLOUD, #4D5AE5);
+font-family: Raleway, sans-serif;
 font-size: 18px;
 font-weight: 700;
-line-height: 1.16; 
+line-height: 1.17; 
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .footer-logo-color {
-  color: var(--IRIS, #4D5AE5);
-font-family: Raleway;
+  color: var(--IRIS, #f4f4fd);
+font-family: Raleway, sans-serif;
 font-size: 18px;
 font-weight: 700;
-line-height: 1.16; /* 116.667% */
+line-height: 1.17; 
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
